@@ -5,7 +5,7 @@ module.exports = {
     // devtool: "eval",
     entry: ["./src/app-loader.jsx"],
     output: {
-        path: `${__dirname}/.dist`,
+        path: `${__dirname}/dist`,
         filename: "app-loader.js"
     },
     performance: {
